@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-struct complex
+/*typedef==>use this for short struct name*/ struct complex
 {
   double real=0;
   double img=0;
@@ -64,9 +64,10 @@ struct complex
   }
 
 
-  };
+  } /*comp==> now your can use comp as short form of complex*/ ;
 int main(){
-
+  //comp c8={4,2};
+  
   complex c1={3,-5};
   complex c2;
   c2.real=6;
